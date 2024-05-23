@@ -1,6 +1,6 @@
-# Service Template
+# Paritree-service
 
-This is a simple GoLang service template that utilizes Echo. It is meant to serve as the foundation for a variety of microservices.
+This is our pairtree service 
 
 ## Building the Project
 
@@ -12,15 +12,15 @@ To run the project run:
 
 To run on Docker first build the Docker image: 
 
-`docker build -t service-template .`
+`docker build -t pairtree-service .`
 
 To specify what version of Go you would like to use with the Docker image:
 
-`docker build --build-arg GO_VERSION=[YOUR_VERSION] -t service-template .`
+`docker build --build-arg GO_VERSION=[YOUR_VERSION] -t pairtree-service .`
 
 To run the Docker image: 
 
-`docker run -d -p 8888:8888 service-template`
+`docker run -d -p 8888:8888 pairtree-service`
 
 ## Compiling on ACT 
 
