@@ -1,6 +1,6 @@
 # Paritree-service
 
-This is our pairtree service 
+This is our pairtree service which will use different microservices to process audio/visual to begin with and other formats later on. 
 
 ## Building the Project
 
