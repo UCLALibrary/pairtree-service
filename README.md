@@ -1,6 +1,6 @@
 # Paritree-service
 
-This is our pairtree service 
+This is our pairtree service for our A/V pipeline project
 
 ## Building the Project
 
