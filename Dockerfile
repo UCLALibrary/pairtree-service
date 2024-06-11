@@ -2,8 +2,8 @@
 ## A Dockefile for UCLA Library's GoLang microservices.
 ##
 
-ARG GO_VERSION=1.22.2
-ARG ALPINE_VERSION=3.20.0
+ARG GO_VERSION=1.22.4
+ARG ALPINE_VERSION=3.20
 ARG SERVICE_NAME="pairtree-service"
 
 ##
