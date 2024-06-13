@@ -10,6 +10,7 @@ on:
     types: [ published ]
   schedule:
     - cron:  '20 20 * * *'
+  workflow_dispatch:
 
 jobs:
   build:
