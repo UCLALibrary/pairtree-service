@@ -1,6 +1,6 @@
 # Paritree-service
 
-This is our pairtree service for our A/V pipeline project
+This is our pairtree service for our A/V pipeline project.
 
 ## Building the Project
 
@@ -21,6 +21,20 @@ To specify what version of Go you would like to use with the Docker image:
 To run the Docker image: 
 
 `docker run -d -p 8888:8888 pairtree-service`
+
+## Building and Running with Docker Compose
+
+To build and run the service using Docker Compose, use the following command:
+
+`docker-compose up --build`
+
+Once the container is running, you can access the service at:
+
+`http://localhost:8888`
+
+To stop the running containers, use the following command:
+
+`docker-compose down`
 
 ## Compiling on ACT 
 
