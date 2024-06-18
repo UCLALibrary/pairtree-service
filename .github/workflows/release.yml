@@ -37,7 +37,7 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: ${{ vars.DOCKER_REGISTRY_ACCOUNT }}pairtree-service:${{ github.ref_name }}
+        tags: ${{ vars.DOCKER_REGISTRY_ACCOUNT }}/${{ env.SERVICE_NAME }}:${{ github.ref_name }}
         build-args: |
           GO_VERSION=${{ env.GO_VERSION }}
           ALPINE_VERSION=${{ env.ALPINE_VERSION }}
