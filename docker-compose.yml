@@ -1,5 +1,5 @@
 services:
-  metadata-extraction-service:
+  pairtree-service:
     build:
       context: .
       dockerfile: Dockerfile
